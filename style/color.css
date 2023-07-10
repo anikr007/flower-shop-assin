@@ -87,6 +87,61 @@ body {
     padding-bottom: 20px;
 }
 
+/* this is featured box section */
+.featured-box-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 240px;
+
+}
+
+.box {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+
+.box2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 0px 24px;
+}
+
+.box3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+.box-paragraph {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 25px;
+}
+
+.box-photo {
+    padding: 110px 78px 0px 76px;
+}
+
+.box-photo2 {
+    padding: 117px 47px 51px 47px;
+}
+
+.box-photo3 {
+    padding: 67px 75px 0px 75px;
+}
+
 /* this is hot deal section */
 .bg-hot {
     background-color: rgba(229, 84, 115, 0.05);
@@ -188,20 +243,14 @@ body {
 
 /* <!-- this is subscribe section --> */
 .sub-container {
-    background-image: url("/Flower\ Asset/");
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding: 10px 240px;
+    /* padding: 10px 240px; */
 }
-
-.sub-pic {}
-
-.sub-text {}
 
 .sub-head-text {
     color: #272727;
-    text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
@@ -212,7 +261,6 @@ body {
 .sub-para {
 
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
@@ -246,15 +294,14 @@ body {
 /* this is Flower shop section */
 .shop-conteiner {
     height: 449px;
-    background: #111010;   
+    background: #111010;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 }
-.shop-text{
-    
-}
+
+.shop-text {}
 
 .shop-header {
     color: #E55473;
@@ -265,7 +312,8 @@ body {
     line-height: normal;
     padding-bottom: 24px;
 }
-.shop-color{
+
+.shop-color {
     color: white;
 }
 
