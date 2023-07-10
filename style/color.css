@@ -73,7 +73,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .featured-dis {
@@ -83,4 +83,62 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* this is hot deal section */
+.bg-hot {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 30px;
+
+}
+
+.hot-text {
+    padding-left: 30px
+}
+
+.hot-header {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.hot-span {
+    color: #E55473;
+}
+
+.hot-dis {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.hot-btn {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+}
+
+.hot-pic {
+    width: 318px;
+    height: 420px;
 }
