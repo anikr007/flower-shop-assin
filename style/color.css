@@ -242,3 +242,48 @@ body {
     border: none;
 
 }
+
+/* this is Flower shop section */
+.shop-conteiner {
+    height: 449px;
+    background: #111010;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.shop-text{
+    
+}
+
+.shop-header {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+.shop-color{
+    color: white;
+}
+
+.shop-para1 {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+.shop-para2 {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
