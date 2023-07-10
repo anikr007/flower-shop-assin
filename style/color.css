@@ -279,8 +279,6 @@ body {
     padding-bottom: 48px;
 }
 
-.sub-mail {}
-
 .sub-input {
     width: 700px;
     height: 64px;
@@ -312,8 +310,6 @@ body {
     text-align: center;
     justify-content: space-around;
 }
-
-.shop-text {}
 
 .shop-header {
     color: #E55473;
