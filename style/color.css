@@ -142,3 +142,30 @@ body {
     width: 318px;
     height: 420px;
 }
+
+/* this is istagram section */
+.insta {
+    text-align: center;
+    justify-content: space-around;
+    margin: 130px 0px 30px 0px;
+}
+
+.insta-head {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-dis {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
