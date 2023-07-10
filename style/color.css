@@ -91,7 +91,7 @@ body {
 .featured-box-container {
     display: flex;
     justify-content: space-around;
-    margin: 150px 240px;
+    margin: 30px 240px 100px;
 
 }
 
@@ -230,8 +230,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 240px;
-    margin-bottom: 30px;
+    padding: 10px 240px 0px;
+
 
 }
 
@@ -243,10 +243,19 @@ body {
 
 /* <!-- this is subscribe section --> */
 .sub-container {
-    align-items: center;
-    justify-content: space-around;
+    background-image: url("/FlowerAsset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
     text-align: center;
-    /* padding: 10px 240px; */
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 128px 240px;
+
 }
 
 .sub-head-text {
@@ -256,6 +265,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    padding: 16px;
 }
 
 .sub-para {
@@ -266,6 +276,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    padding-bottom: 48px;
 }
 
 .sub-mail {}
@@ -276,7 +287,7 @@ body {
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
-    border: 0.1px solid gray;
+    border: none;
 }
 
 .sub-btn {
@@ -288,6 +299,7 @@ body {
     color: #FFF;
     font-size: 20px;
     border: none;
+    margin-left: 16px;
 
 }
 
