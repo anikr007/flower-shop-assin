@@ -42,20 +42,45 @@ body {
 .btn {
     border-radius: 8px;
     background: #E55473;
-    display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border: none;
     color: white;
     font-family: Lato;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+
 }
 
 .header-pic {
     width: 635px;
     height: 800px;
+}
+
+/* This is Featured section */
+.featured-title {
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured-head {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.featured-dis {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
