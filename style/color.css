@@ -177,11 +177,68 @@ body {
     align-items: center;
     padding: 15px 240px;
     margin-bottom: 30px;
-    
+
 }
 
 .insta-box {
     width: 342px;
     height: 396px;
     padding: 14px;
+}
+
+/* <!-- this is subscribe section --> */
+.sub-container {
+    background-image: url("/Flower\ Asset/");
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 240px;
+}
+
+.sub-pic {}
+
+.sub-text {}
+
+.sub-head-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-para {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sub-mail {}
+
+.sub-input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0.1px solid gray;
+}
+
+.sub-btn {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+
 }
